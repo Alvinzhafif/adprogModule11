@@ -35,7 +35,7 @@ This strategy involves updating the application by shutting down all existing in
 ![image](https://github.com/Alvinzhafif/adprogModule11/assets/143392835/abe20ebc-9c4b-416a-b426-349cd029ee40)
 2. I simulate an update by setting an image for deployment and confirming that update by using the ` kubectl rollout status deployments/spring-petclinic-rest` command. Here's the output:
 ![image](https://github.com/Alvinzhafif/adprogModule11/assets/143392835/f52b278d-0b3c-43ad-8037-e9eecb1d3966)
-We can see here, that the deployment's strategy has been changed to recreate through the age of the Pods. The new pods have the same ages for all four of them if we were to use the RollingUpdate strategy due to its replacing strategy some of the age of the pods may be different.
+We can see here that the deployment's strategy has been changed to recreate through the age of the Pods. The new pods have the same ages for all four of them. If we were to use the RollingUpdate strategy, its replacing strategy would cause the age of the pods to be different.
 ### 3. Prepare different manifest files for executing Recreate deployment strategy.
 Here's my new manifest file for the recreate strategy:
 ```
