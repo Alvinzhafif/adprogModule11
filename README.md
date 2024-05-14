@@ -100,7 +100,7 @@ status:
   updatedReplicas: 4
 ```
 
-### 5. What do you think are the benefits of using Kubernetes manifest files? 
+### 4. What do you think are the benefits of using Kubernetes manifest files? 
 
 #### 1. Declarative Configuration
 By using Manifest Files, we can describe the desired state of the app and infrastructure using a `YAML` or `JSON` file. Kubernetes will then automatically set the actual state to match what we inputted in the file. Compared to doing it manually, we need to input our own commands for setting up the app. Increasing the probability of errors and inconsistency.
